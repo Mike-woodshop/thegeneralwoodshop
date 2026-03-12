@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node build.js)",
+      "Bash(cmd //c \"rename cutting-boards cutting-boards--50-200\")",
+      "Bash(cmd //c \"rename goblets goblets--30-80\")",
+      "Bash(cmd //c \"rename vases vases--25-60\")",
+      "Bash(cmd //c \"rename cups cups--20-40\")",
+      "Bash(cmd //c \"rename plates-trays plates-trays--30-75\")",
+      "Bash(cmd //c \"rename candle-holders candle-holders--25-45\")",
+      "Bash(cmd //c \"rename fish-euthanizers fish-euthanizers--15-30\")",
+      "Bash(cmd //c \"rename wood-burned-art wood-burned-art--75-300\")"
+    ]
+  }
+}

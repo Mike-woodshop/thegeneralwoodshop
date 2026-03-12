@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": "candle-holders--25-45",
+      "name": "Candle Holders",
+      "price": "$25 - $45",
+      "count": 1,
+      "images": [
+        "images/products/candle-holders--25-45/CANDLE HOLDER.JPG"
+      ]
+    },
+    {
+      "id": "cups--20-40",
+      "name": "Cups",
+      "price": "$20 - $40",
+      "count": 2,
+      "images": [
+        "images/products/cups--20-40/CUPS (2).JPG",
+        "images/products/cups--20-40/CUPS.JPG"
+      ]
+    },
+    {
+      "id": "cutting-boards--50-200",
+      "name": "Cutting Boards",
+      "price": "$50 - $200",
+      "count": 39,
+      "images": [
+        "images/products/cutting-boards--50-200/CUTTING BOARD (2).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (3).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (4).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (5).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (6).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (7).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD (8).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD SIDE (2).JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD SIDE.JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD UNDERSIDE.JPG",
+        "images/products/cutting-boards--50-200/CUTTING BOARD.JPG",
+        "images/products/cutting-boards--50-200/IMG_0521.JPG",
+        "images/products/cutting-boards--50-200/IMG_0522.JPG",
+        "images/products/cutting-boards--50-200/IMG_0523.JPG",
+        "images/products/cutting-boards--50-200/IMG_0524.JPG",
+        "images/products/cutting-boards--50-200/IMG_0526.JPG",
+        "images/products/cutting-boards--50-200/IMG_0527.JPG",
+        "images/products/cutting-boards--50-200/IMG_0528.JPG",
+        "images/products/cutting-boards--50-200/IMG_0529.JPG",
+        "images/products/cutting-boards--50-200/IMG_0530.JPG",
+        "images/products/cutting-boards--50-200/IMG_0531.JPG",
+        "images/products/cutting-boards--50-200/IMG_0536.JPG",
+        "images/products/cutting-boards--50-200/IMG_0537.JPG",
+        "images/products/cutting-boards--50-200/IMG_0540.JPG",
+        "images/products/cutting-boards--50-200/IMG_0541.JPG",
+        "images/products/cutting-boards--50-200/IMG_0542.JPG",
+        "images/products/cutting-boards--50-200/IMG_0543.JPG",
+        "images/products/cutting-boards--50-200/IMG_0544.JPG",
+        "images/products/cutting-boards--50-200/IMG_0545.JPG",
+        "images/products/cutting-boards--50-200/IMG_0546.JPG",
+        "images/products/cutting-boards--50-200/IMG_0559.JPG",
+        "images/products/cutting-boards--50-200/IMG_0560.JPG",
+        "images/products/cutting-boards--50-200/IMG_0561.JPG",
+        "images/products/cutting-boards--50-200/IMG_0565.JPG",
+        "images/products/cutting-boards--50-200/IMG_0566.JPG",
+        "images/products/cutting-boards--50-200/IMG_0567.JPG",
+        "images/products/cutting-boards--50-200/IMG_0576[1].JPG",
+        "images/products/cutting-boards--50-200/IMG_0578[1].JPG",
+        "images/products/cutting-boards--50-200/IMG_0585.JPG"
+      ]
+    },
+    {
+      "id": "fish-euthanizers--15-30",
+      "name": "Fish Euthanizers",
+      "price": "$15 - $30",
+      "count": 5,
+      "images": [
+        "images/products/fish-euthanizers--15-30/FISH EUTHANIZERS.JPG",
+        "images/products/fish-euthanizers--15-30/IMG_0572.JPG",
+        "images/products/fish-euthanizers--15-30/IMG_0573.JPG",
+        "images/products/fish-euthanizers--15-30/IMG_0574.JPG",
+        "images/products/fish-euthanizers--15-30/IMG_0575.JPG"
+      ]
+    },
+    {
+      "id": "goblets--30-80",
+      "name": "Goblets",
+      "price": "$30 - $80",
+      "count": 15,
+      "images": [
+        "images/products/goblets--30-80/20230501_203433.jpg",
+        "images/products/goblets--30-80/20230611_205121.jpg",
+        "images/products/goblets--30-80/20240813_145351.jpg",
+        "images/products/goblets--30-80/GOBLETS.JPG",
+        "images/products/goblets--30-80/IMG_0266.JPG",
+        "images/products/goblets--30-80/IMG_0547.JPG",
+        "images/products/goblets--30-80/IMG_0548.JPG",
+        "images/products/goblets--30-80/IMG_0550.JPG",
+        "images/products/goblets--30-80/IMG_0552.JPG",
+        "images/products/goblets--30-80/IMG_0553.JPG",
+        "images/products/goblets--30-80/IMG_0554.JPG",
+        "images/products/goblets--30-80/IMG_0555.JPG",
+        "images/products/goblets--30-80/IMG_0556.JPG",
+        "images/products/goblets--30-80/IMG_0557.JPG",
+        "images/products/goblets--30-80/IMG_0558.JPG"
+      ]
+    },
+    {
+      "id": "plates-trays--30-75",
+      "name": "Plates Trays",
+      "price": "$30 - $75",
+      "count": 3,
+      "images": [
+        "images/products/plates-trays--30-75/IMG_0533.JPG",
+        "images/products/plates-trays--30-75/PLATE, TRAY SIDE.JPG",
+        "images/products/plates-trays--30-75/PLATE, TRAY.JPG"
+      ]
+    },
+    {
+      "id": "vases--25-60",
+      "name": "Vases",
+      "price": "$25 - $60",
+      "count": 4,
+      "images": [
+        "images/products/vases--25-60/IMG_0267.JPG",
+        "images/products/vases--25-60/VASE (2).JPG",
+        "images/products/vases--25-60/VASE (3).JPG",
+        "images/products/vases--25-60/VASE.JPG"
+      ]
+    },
+    {
+      "id": "wood-burned-art--75-300",
+      "name": "Wood Burned Art",
+      "price": "$75 - $300",
+      "count": 2,
+      "images": [
+        "images/products/wood-burned-art--75-300/20240525_170111.jpg",
+        "images/products/wood-burned-art--75-300/20240809_113303.jpg"
+      ]
+    }
+  ]
+}

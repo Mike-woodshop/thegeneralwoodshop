@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The General Woodshop &mdash; Handcrafted Wood Products</title>
+  <meta name="description" content="Handcrafted cutting boards, goblets, vases, and more from The General Woodshop. Every piece made by hand from locally sourced wood.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">The <span>General</span> Woodshop</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero__stamp"><span>Est. in the shop</span></div>
+      <h1>The General Woodshop</h1>
+      <p class="hero__tagline">Handcrafted wood products made one piece at a time. No two are alike because no two trees are alike.</p>
+      <a href="products.html" class="btn btn--primary">See Our Work</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2>What We Make</h2>
+        <div class="divider divider--center"></div>
+        <p>Every piece starts as a raw slab or turning blank and ends up as something you'll want to use every day.</p>
+      </div>
+      <div class="postcard-grid" id="featured-grid">
+        <!-- Populated by products.js -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container" style="text-align:center; max-width: 700px;">
+      <span class="stamp">Handmade</span>
+      <h2 style="margin-top: 20px;">Honest Work, Real Wood</h2>
+      <div class="divider divider--center"></div>
+      <p>We're not a factory. We're a shop. Every cutting board is glued up, planed, sanded, and finished by hand. Every goblet is turned one at a time on the lathe. We use wood from local trees whenever we can &mdash; maple, cherry, walnut, oak, spalted finds from the firewood pile. If there's a knot or a bark inclusion, we leave it in. That's not a defect, that's character.</p>
+      <br>
+      <a href="about.html" class="btn btn--outline">Our Story</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer__brand">The General Woodshop</p>
+      <p>Handcrafted with care &mdash; one piece at a time.</p>
+      <p style="margin-top: 16px; font-size: 0.8rem; opacity: 0.6;">&copy; 2024 The General Woodshop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>

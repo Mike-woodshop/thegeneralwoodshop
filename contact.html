@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &mdash; The General Woodshop</title>
+  <meta name="description" content="Get in touch with The General Woodshop for custom orders, questions, or just to say hello.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">The <span>General</span> Woodshop</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="stamp">Write Us</span>
+      <h1 style="margin-top: 16px;">Get In Touch</h1>
+      <p>Custom orders, questions, or just want to talk wood? We'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-form" style="text-align:center; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:24px;">
+          <h2>Email Us</h2>
+          <div class="divider divider--center"></div>
+          <p style="font-size:1.1rem;">Drop us a line any time. We'll get back to you as soon as we're out of the shop.</p>
+
+          <a href="mailto:thegeneralwoodshop@hotmail.com" class="btn btn--primary" style="font-size:1rem;">
+            Open in Your Email
+          </a>
+
+          <div style="display:flex; align-items:center; gap:12px; margin-top:8px;">
+            <code id="email-text" style="font-size:1.05rem; background:var(--cream); padding:10px 18px; border:2px solid var(--tan); border-radius:var(--radius); user-select:all;">thegeneralwoodshop@hotmail.com</code>
+            <button class="btn btn--outline" id="copy-btn" style="padding:10px 20px; font-size:0.85rem;">Copy</button>
+          </div>
+          <p id="copy-status" style="font-size:0.85rem; color:var(--green); min-height:1.2em;"></p>
+        </div>
+
+        <div class="contact-info">
+          <h2>Custom Orders</h2>
+          <div class="divider"></div>
+          <p>We do custom work. If you've got a specific wood, size, or design in mind, send us a message and we'll figure it out together. Personalized wood burning for gifts and special occasions is one of our favorite things to do &mdash; names, dates, portraits, logos.</p>
+
+          <h3 style="margin-top: 32px;">What to Include</h3>
+          <p>For custom orders, it helps if you can tell us:</p>
+          <ul style="margin-left: 20px; margin-bottom: 24px; line-height: 2;">
+            <li>What type of product you're interested in</li>
+            <li>Approximate size if you have a preference</li>
+            <li>Wood species or color preference</li>
+            <li>Any personalization (names, dates, images)</li>
+            <li>When you need it by</li>
+          </ul>
+
+          <h3>Turnaround</h3>
+          <p>Most pieces take 1&ndash;3 weeks depending on complexity and what's already in progress. Custom end-grain cutting boards and wood-burned portraits can take longer. We'll give you an honest timeline upfront.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer__brand">The General Woodshop</p>
+      <p>Handcrafted with care &mdash; one piece at a time.</p>
+      <p style="margin-top: 16px; font-size: 0.8rem; opacity: 0.6;">&copy; 2024 The General Woodshop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('copy-btn').addEventListener('click', () => {
+      navigator.clipboard.writeText('thegeneralwoodshop@hotmail.com').then(() => {
+        document.getElementById('copy-status').textContent = 'Copied!';
+        setTimeout(() => document.getElementById('copy-status').textContent = '', 2000);
+      });
+    });
+  </script>
+</body>
+</html>

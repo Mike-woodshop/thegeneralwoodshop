@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products &mdash; The General Woodshop</title>
+  <meta name="description" content="Browse handcrafted cutting boards, goblets, vases, cups, and more from The General Woodshop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo">The <span>General</span> Woodshop</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <span class="stamp">Browse</span>
+      <h1 style="margin-top: 16px;">Our Products</h1>
+      <p>Everything here was made by hand in the shop. Click any image to see it up close.</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div id="filter-bar" class="filter-bar">
+        <!-- Populated by products.js -->
+      </div>
+      <div id="products-container">
+        <p style="text-align:center; color: var(--brown-light);">Loading products...</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous">&#8249;</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next">&#8250;</button>
+    <img class="lightbox__img" id="lightbox-img" src="" alt="">
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer__brand">The General Woodshop</p>
+      <p>Handcrafted with care &mdash; one piece at a time.</p>
+      <p style="margin-top: 16px; font-size: 0.8rem; opacity: 0.6;">&copy; 2024 The General Woodshop. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/products.js"></script>
+</body>
+</html>
